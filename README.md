@@ -22,24 +22,33 @@ Enter "针不戳" and press enter. The following results may be obtained:
 
 <br>
 
-`===Test output===`
-`针不戳`
-`===Result===`
-`for i in range(0,15,5):print(chr(int('380251998225143'[i:i+5])-int('114'[int(i/5)])),end='')`
+===Test output===
 
-`===Result===`
-`print('%c' * 3 % (41%91+7*97*60-2757,79+95*41+16007,39-73*38+27874))`
+针不戳
 
-`===Result===`
-`print(''.join(map(chr,[38024,19981,25139])))`
-`===Result===`
-`for w in r'釰䭵徛':print(chr(int((ord(w)--664)/ 1 )),end='')`
+===Result===
 
-`===Result===` @[Python String Obfuscator](https://github.com/d4em0n/nostr)
+for i in range(0,15,5):print(chr(int('380251998225143'[i:i+5])-int('114'[int(i/5)])),end='')
+
+===Result===
+
+print('%c' * 3 % (41%91+7*97*60-2757,79+95*41+16007,39-73*38+27874))
+
+===Result===
+
+print(''.join(map(chr,[38024,19981,25139])))
+
+===Result===
+
+for w in r'釰䭵徛':print(chr(int((ord(w)--664)/ 1 )),end='')
+
+===Result=== @[Python String Obfuscator](https://github.com/d4em0n/nostr)
+
 `_=((()==())+(()==()));__=(((_<<_)<<_)*_);___=('c%'[::(([]!=[])-(()==()))])*(_+(()==()))%(((((((((_<<_)<<_)<<_)<<_)<<_)<<_)<<_)+(((((((_<<_)<<_)<<_)<<_)<<_)*_)+((((((_<<_)<<_)<<_)<<_)*_)+((((_<<_)<<_)<<_)+(_<<_))))),((((((((_<<_)<<_)<<_)<<_)<<_)<<_)*_)+((((((_<<_)<<_)<<_)<<_)<<_)+((((((_<<_)<<_)<<_)<<_)*_)+(((((_<<_)<<_)<<_)<<_)+((_<<_)+((_*_)+(()==()))))))),((((((((_<<_)<<_)<<_)<<_)<<_)<<_)*_)+(((((((_<<_)<<_)<<_)<<_)<<_)<<_)+(((((_<<_)<<_)<<_)<<_)+(((_<<_)<<_)+(((_<<_)*_)+(_+(()==()))))))));print(___)`
 
-`===Result===`
-`import base64;print(base64.b64decode('6ZKI5LiN5oiz').decode('utf8'))`
+===Result===
+
+import base64;print(base64.b64decode('6ZKI5LiN5oiz').decode('utf8'))
 
 ## 感谢 Thanks to
 
