@@ -12,7 +12,7 @@ Python 3
 
 下载项目，打开str2Python.py，输入要转换的字符，回车即可。或者拖入txt文件到str2Python.py，会自动转换并保存为另一个txt文件。 
 
-Download project, open str2Python.py, enter the text needed to be converted and press enter. Or drag a TXT file into the script, which will automatically convert it and saved as another TXT file.
+Download project, open str2Python.py, enter the text needed to be converted and press enter. Or drag a TXT file into the script, which will automatically convert it and save as another TXT file.
 
 ## 举例子 Example
 
